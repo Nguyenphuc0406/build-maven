@@ -9,4 +9,8 @@ public class Controller {
     public String hello(){
         return "Hello Spring Boot";
     }
+    @GetMapping(value = "/check")
+    public String check(){
+        return "Check Success !";
+    }
 }
