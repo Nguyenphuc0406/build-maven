@@ -9,7 +9,7 @@ public class Controller {
     public String hello(){
         return "Hello Spring Boot";
     }
-    @GetMapping(value = "/test")
+    @GetMapping(value = "/check-v2")
     public String check(){
         return "Check Success !";
     }
