@@ -13,5 +13,8 @@ public class Controller {
     public String check(){
         return "Check Success !";
     }
-
+    @GetMapping(value = "/check-v3")
+    public String checkV3(){
+        return "Check Success V3 !";
+    }
 }
